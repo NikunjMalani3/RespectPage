@@ -34,3 +34,16 @@ body {
 .details {
     width: 250px;
 }
+
+img {
+    background-size: 450px;
+    background-image: url("https://d3cm515ijfiu6w.cloudfront.net/wp-content/uploads/2021/10/09113849/max-verstappen-red-bull-turkey-pit-lane-planetf1-1200x630.jpg");
+    height: 14.5rem;
+    width: 25rem;
+}
+
+.career {
+    font-size: xx-large;
+    font-weight: bolder;
+
+}
