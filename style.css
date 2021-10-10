@@ -1,25 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300;600&display=swap');
+
+body {
+    font-family: 'Barlow', sans-serif;
+    background-image: url("https://wallpapercave.com/wp/wp2691343.jpg");
+    font-size: x-large;
+    font-weight: 600;
+}
+
+.hr {
+    color: black;
+}
+
 .header {
     text-align: center;
+    padding-bottom: 4rem;
 }
 
-/* .year-container {
-    width: 50px;
-    padding-left: 5rem;
+.header-para {
+    margin-bottom: 5rem;
 }
 
 .content-container {
-    width: 300px; */
-/* } */
-
-.content-container {
-    display: grid;
-    width: 500px;
-    grid-template-columns: 100px 0px 120px;
-    align-items: start;
+    display: flex;
+    flex-direction: row;
     justify-content: space-evenly;
-    padding-left: 10rem;
+    column-gap: 3rem;
 }
 
-.content-container :first-child {
-    align-self: center;
+.non-bullet {
+    list-style: none;
+}
+
+.details {
+    width: 250px;
 }
